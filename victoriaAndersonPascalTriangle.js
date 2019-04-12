@@ -1,4 +1,4 @@
-pascalTriangle = numberOfRows => {
+pascalsTriangle = numberOfRows => {
   const row1 = [1];
   const row2 = [1, 1];
   let laterRows = [];
@@ -32,4 +32,4 @@ pascalTriangle = numberOfRows => {
 }
 
 let chosenNum = parseInt(process.argv[2]);
-pascalTriangle(chosenNum);
+pascalsTriangle(chosenNum);
